@@ -1,0 +1,119 @@
+:root{
+    /*Primary*/
+--Soft-blue: hsl(215, 51%, 70%);
+--Cyan: hsl(178, 100%, 50%);
+
+    /*Neutral*/
+---Very-dark-blue: hsl(217, 54%, 11%); /*(main BG)*/
+--Very-dark-blue: hsl(216, 50%, 16%); /*(card BG)*/
+--Very-dark-blue : hsl(215, 32%, 27%); /*(line)*/
+--White: hsl(0, 0%, 100%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Quicksand:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(---Very-dark-blue);
+    min-height: 100vh;
+    font-size: 18px;
+}
+
+.container-1{
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+.card{
+    background-color: var(--Very-dark-blue);
+    padding: 18px;
+    border-radius: 17px;
+    text-align: center;
+    margin: 0 1em;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.text{
+    padding: 22px 10px;
+}
+
+.text h1{
+    text-align: left;
+    font-size: 18px;
+    color: var(--White);
+    font-family: 'outfit', sans-serif;
+}
+
+ p{
+    font-size: 15px;
+    font-family: 'outfit', sans-serif;
+    margin-top: 6px;
+    text-align: left;
+    color: var(--Soft-blue)
+
+    
+}
+
+.sub-content{
+    display: flex;
+    margin-top: 26px;
+    justify-content: space-around;
+
+}
+
+.sub-content .diamond{
+    height: 100%;
+    width: auto;
+}
+
+.number-1{
+    font-size: 18px;
+    float: left;
+    margin-right: 1rem;
+    color: var(--Cyan);
+}
+
+.sub-content .clock{
+    height: 100%;
+    width: auto;
+}
+
+.number-2{
+    color: var(--Soft-blue);
+    font-size: 18px;
+    margin-right: 1rem;
+}
+
+hr{
+    margin-top: 8px;
+    color: var(--Very-dark-blue);
+}
+
+.bottom-content{
+    display: flex;
+    margin-top: 26px;
+}
+
+.bottom-content .face{
+    width: 30px;
+    border: 1px solid white;
+}
+
+h4{
+    color: var(--White);
+    font-family: 'outfit', sans-serif;
+    font-size: 18px;
+}
+span{
+    color: var(---Very-dark-blue)
+}
+
